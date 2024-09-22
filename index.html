@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Farm^Fresh</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">Farm<span>Fresh</span>.</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links" style="list-style: none; padding: 0; margin: 0; display: flex;">
+        <li><a href="/index.html" style="text-decoration: none; padding: 10px; display: block;">Home</a></li>
+        <li><a href="./content/location.html" style="text-decoration: none; padding: 10px; display: block;">Location</a></li>
+        <li><a href="./content/blog.html" style="text-decoration: none; padding: 10px; display: block;">Blog</a></li>
+        <li><a href="./content/about.html" style="text-decoration: none; padding: 10px; display: block;">About Us</a></li>
+        <li><a href="./content/contact.html" style="text-decoration: none; padding: 10px; display: block;">Contact</a></li>
+      </ul>      
+      <div class="nav__btns">
+        <a href="./main/index.html" class="btn sign__up">Sign Up</a>
+        <a href="./main/index.html" class="btn sign__in">Sign In</a>
+    </div>    
+    </nav>
+    <header class="header__container">
+      <div class="header__image">
+        <div class="header__image__card header__image__card-1">
+          <span><i class="fas fa-apple-alt"></i></span>
+          Tropical Fruits
+        </div>
+        <div class="header__image__card header__image__card-2">
+          <span><i class="fas fa-lemon"></i></span>
+          Citrus Fruits
+        </div>
+        <div class="header__image__card header__image__card-3">
+          <span><i class="fa-solid fa-tablets"></i></span>
+          Melons
+        </div>
+        <div class="header__image__card header__image__card-4">
+          <span><i class="fa-solid fa-brain"></i></span>
+          Dry Fruits
+        </div>
+        <img src="assets/header.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <h1>THE <span>JOURNEY</span> OF FRESHNESS BEGINS NOW</h1>
+        <p>
+          Embark on a journey of fresh & flavor<br/><br/>
+          discover nature’s finest fruits for you.<br/><br/>
+          taste of adventure awaits with every bite!<br/>
+        </p>
+        <form action="/">
+          <div class="input__row">
+            <div class="input__group">
+              <h5>Location</h5>
+              <div>
+                <div>
+                  <span><i class="ri-map-pin-line"></i></span>
+                  <input type="text" placeholder="Nellore & Gudur" />
+                </div>
+              </div>
+            </div>
+            <div class="input__group">
+              <h5>Date</h5>
+              <div>
+                <span><i class="ri-calendar-2-line"></i></span>
+                <input type="text" placeholder="July 2024" />
+              </div>
+            </div>
+          </div>
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </header>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
